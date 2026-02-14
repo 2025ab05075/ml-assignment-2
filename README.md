@@ -66,3 +66,7 @@ The deployed application includes:
 - Generate predictions  
 - Show confusion matrix  
 - Compute evaluation metrics (Accuracy, AUC, Precision, Recall, F1, MCC)
+
+## Data to upload 
+data to upload is found in main/data/test.csv
+
