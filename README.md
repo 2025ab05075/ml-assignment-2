@@ -45,6 +45,16 @@ The following six classification models were implemented:
 
    ## Observations on Model Performance
 
+   	Model	Accuracy	AUC	Precision	Recall	F1	MCC
+0	logistic_regression	0.891407719	0.87258269	0.594527363	0.225897921	0.32739726	0.320453221
+1	decision_tree	0.878137786	0.705100833	0.479206049	0.479206049	0.479206049	0.410201666
+2	knn	0.892292381	0.808924164	0.571672355	0.316635161	0.407542579	0.372370016
+3	naive_bayes	0.83799624	0.812745957	0.355366027	0.472589792	0.405679513	0.318344191
+4	random_forest	0.905230565	0.926134304	0.64844904	0.414933837	0.506051873	0.470361828
+5	xgboost	0.905783479	0.926749115	0.628109453	0.47731569	0.542427497	0.496752242
+<img width="802" height="169" alt="image" src="https://github.com/user-attachments/assets/dbc222ec-0dac-4d52-ba17-bc2cc2aed4ad" />
+
+
 | Model | Observation |
 |------|-------------|
 | Logistic Regression | Provides stable baseline performance but assumes linear decision boundary. |
@@ -69,4 +79,5 @@ The deployed application includes:
 
 ## Data to upload 
 data to upload is found in main/data/test.csv
+
 
